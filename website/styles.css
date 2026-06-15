@@ -423,6 +423,24 @@ a { color: inherit; }
    01 ABOUT
    ========================================================================== */
 
+.about-lead {
+  max-width: 740px;
+  margin-bottom: clamp(40px, 6vw, 68px);
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.about-lead::before {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  background: var(--clay);
+  margin-bottom: 24px;
+}
+
 .about-grid {
   display: grid;
   gap: clamp(40px, 6vw, 90px);

@@ -28,6 +28,7 @@
 
       "about.kicker": "Who I am",
       "about.title": "About me",
+      "about.lead": "The goal is simple: to build and run ventures of my own — backed by a real business education, not just instinct.",
       "about.p1": "I'm a computer systems technician from Riga, drawn to how systems and processes actually work — and how to make them work better.",
       "about.p2": "Outside formal study I taught myself the practical side of business: building online stores, running paid ad campaigns, and producing content that reached over 2.3 million views. I generated real sales, learned where things break, and came away with an honest read on what it takes to run a venture.",
       "about.p3": "I approach goals the way I approach training — consistently, over the long term. Four years in the gym, a marathon, and two half-marathons taught me that discipline compounds. I'm now building a serious foundation in business and entrepreneurship.",
@@ -128,6 +129,7 @@
 
       "about.kicker": "Kas es esmu",
       "about.title": "Par mani",
+      "about.lead": "Mērķis ir vienkāršs: veidot un vadīt pašam savus uzņēmumus — ar reālu biznesa izglītību, ne tikai ar intuīciju.",
       "about.p1": "Esmu datorsistēmu tehniķis no Rīgas, un mani saista tas, kā sistēmas un procesi patiesībā darbojas — un kā panākt, lai tie darbotos labāk.",
       "about.p2": "Ārpus formālajām mācībām pats apguvu biznesa praktisko pusi: veidoju interneta veikalus, vadīju maksas reklāmas kampaņas un radīju saturu, kas sasniedza vairāk nekā 2,3 miljonus skatījumu. Guvu reālus pārdošanas darījumus, iemācījos, kur lietas saplīst, un ieguvu godīgu priekšstatu par to, ko prasa sava biznesa vadīšana.",
       "about.p3": "Mērķiem es pieeju tāpat kā treniņiem — konsekventi un ilgtermiņā. Četri gadi sporta zālē, maratons un divi pusmaratoni man iemācīja, ka disciplīna summējas. Tagad veidoju nopietnu pamatu biznesā un uzņēmējdarbībā.",
