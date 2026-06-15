@@ -3,15 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Rinalds Dērics — Riga, Latvia</title>
   <meta name="description" content="Rinalds Dērics — I build systems that work: in technology, in business, and in training. Riga, Latvia.">
-  <meta property="og:title" content="Rinalds Dērics">
+  <meta name="author" content="Rinalds Dērics">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F0F0F">
+  <link rel="canonical" href="https://rinalds-derics.pages.dev/">
+
+  <!-- Icons & PWA -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rinalds Dērics">
+  <meta property="og:title" content="Rinalds Dērics — Riga, Latvia">
   <meta property="og:description" content="I build systems that work — in technology, in business, and in training.">
-  <meta property="og:image" content="assets/hero-gala.jpg">
+  <meta property="og:url" content="https://rinalds-derics.pages.dev/">
+  <meta property="og:image" content="https://rinalds-derics.pages.dev/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Rinalds Dērics — Riga, Latvia">
+  <meta property="og:locale" content="en">
+  <meta property="og:locale:alternate" content="lv">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rinalds Dērics — Riga, Latvia">
+  <meta name="twitter:description" content="I build systems that work — in technology, in business, and in training.">
+  <meta name="twitter:image" content="https://rinalds-derics.pages.dev/assets/og-image.jpg">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" href="assets/hero-gala.jpg" fetchpriority="high">
+
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rinalds Dērics",
+    "url": "https://rinalds-derics.pages.dev/",
+    "image": "https://rinalds-derics.pages.dev/assets/og-image.jpg",
+    "jobTitle": "Computer Systems Technician",
+    "address": { "@type": "PostalAddress", "addressLocality": "Riga", "addressCountry": "LV" },
+    "email": "mailto:rinalds.derics@gmail.com",
+    "sameAs": ["https://instagram.com/r.derics"],
+    "knowsLanguage": ["Latvian", "English"],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Rīgas Tehniskā koledža" }
+  }
+  </script>
 </head>
 <body>
 
@@ -28,9 +78,9 @@
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
     <div class="lang" role="group" aria-label="Language">
-      <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true" aria-label="View in English">EN</button>
       <span class="lang-sep" aria-hidden="true">/</span>
-      <button type="button" class="lang-btn" data-lang="lv" aria-pressed="false">LV</button>
+      <button type="button" class="lang-btn" data-lang="lv" aria-pressed="false" aria-label="Skatīt latviski">LV</button>
     </div>
   </header>
 
@@ -329,7 +379,7 @@
             <p data-i18n="acad.3.p">Sporta izglītības aģentūra — in progress, 2026.</p>
           </article>
           <figure class="acad-cert reveal">
-            <img src="assets/acad-certificate.jpg" loading="lazy"
+            <img src="assets/acad-certificate.jpg" loading="lazy" width="675" height="900"
                  alt="RTK Silver Merit Certificate, 2023/2024"
                  data-i18n-alt="alt.cert">
           </figure>
@@ -365,6 +415,10 @@
     <p data-i18n="footer.credit">Designed &amp; built by Rinalds Dērics</p>
     <p class="footer-loc">Riga, Latvia — <span id="footer-year">2026</span></p>
   </footer>
+
+  <button type="button" class="to-top" id="toTop" aria-label="Back to top" data-i18n-aria="toTop">
+    <span aria-hidden="true">↑</span>
+  </button>
 
   <script src="script.js"></script>
 </body>

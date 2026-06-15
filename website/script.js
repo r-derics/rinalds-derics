@@ -13,6 +13,7 @@
   var I18N = {
     en: {
       "skip": "Skip to content",
+      "toTop": "Back to top",
       "nav.about": "About",
       "nav.ventures": "Ventures",
       "nav.experience": "Experience",
@@ -112,6 +113,7 @@
 
     lv: {
       "skip": "Pāriet uz saturu",
+      "toTop": "Atpakaļ uz augšu",
       "nav.about": "Par mani",
       "nav.ventures": "Projekti",
       "nav.experience": "Pieredze",
@@ -231,6 +233,11 @@
       if (dict[key] !== undefined) el.setAttribute("alt", dict[key]);
     });
 
+    document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n-aria");
+      if (dict[key] !== undefined) el.setAttribute("aria-label", dict[key]);
+    });
+
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       var active = btn.getAttribute("data-lang") === lang;
       btn.classList.toggle("is-active", active);
@@ -323,11 +330,19 @@
      NAV — scrolled state + scrollspy
   ------------------------------------------------------------------ */
   var nav = document.querySelector(".nav");
+  var toTop = document.getElementById("toTop");
   function onScroll() {
     nav.classList.toggle("is-scrolled", window.scrollY > 40);
+    if (toTop) toTop.classList.toggle("is-visible", window.scrollY > 600);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
+
+  if (toTop) {
+    toTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+    });
+  }
 
   var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav-links a"));
   var spyTargets = navLinks
@@ -339,7 +354,10 @@
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         navLinks.forEach(function (a) {
-          a.classList.toggle("is-active", a.getAttribute("href") === "#" + entry.target.id);
+          var active = a.getAttribute("href") === "#" + entry.target.id;
+          a.classList.toggle("is-active", active);
+          if (active) { a.setAttribute("aria-current", "true"); }
+          else { a.removeAttribute("aria-current"); }
         });
       });
     }, { rootMargin: "-40% 0px -55% 0px" });

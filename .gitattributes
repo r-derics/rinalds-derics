@@ -1,0 +1,15 @@
+# Normalize line endings: text files stored as LF in the repo
+* text=auto eol=lf
+
+# Binary assets — never line-ending-converted or diffed as text
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.JPG  binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.HEIC binary
+*.heic binary
+*.PNG  binary
+*.pdf  binary
