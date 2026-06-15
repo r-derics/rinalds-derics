@@ -879,6 +879,7 @@ a { color: inherit; }
   flex-direction: column;
   align-items: flex-start;
   gap: clamp(18px, 3vw, 30px);
+  min-width: 0;
 }
 
 .contact-media {
@@ -902,20 +903,25 @@ a { color: inherit; }
   filter: saturate(0.92);
 }
 
-@media (min-width: 800px) {
-  .contact-grid { grid-template-columns: 1.4fr 1fr; }
+@media (min-width: 1024px) {
+  .contact-grid { grid-template-columns: minmax(0, 1.5fr) 1fr; }
   .contact-media { justify-self: end; }
 }
 
 .contact-big {
   font-family: var(--display);
-  font-size: clamp(1.35rem, 4.6vw, 3.4rem);
+  font-size: clamp(1.3rem, 4.6vw, 2.8rem);
   line-height: 1.15;
   text-decoration: none;
   text-transform: lowercase;
-  word-break: break-all;
+  white-space: nowrap;
   position: relative;
   transition: color 0.3s ease;
+}
+
+/* Email is the longest token — size it to always fit on one line */
+.contact-big.contact-email {
+  font-size: clamp(1rem, 3.6vw, 2rem);
 }
 
 .contact-big::after {
