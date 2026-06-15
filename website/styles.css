@@ -927,6 +927,98 @@ a { color: inherit; }
   .contact-media { justify-self: end; }
 }
 
+/* Contact form */
+.contact-form {
+  margin-top: clamp(56px, 8vw, 96px);
+  max-width: 720px;
+  border-top: 1px solid var(--line);
+  padding-top: clamp(40px, 5vw, 60px);
+}
+
+.form-title {
+  font-family: var(--display);
+  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.cf-grid {
+  display: grid;
+  gap: 22px;
+}
+
+.cf-field {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.cf-field > span {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-bottom: 10px;
+}
+
+.cf-field input,
+.cf-field textarea {
+  width: 100%;
+  background: var(--bg-raise);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1rem;
+  padding: 14px 16px;
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+.cf-field textarea { resize: vertical; min-height: 120px; }
+
+.cf-field input:focus,
+.cf-field textarea:focus {
+  outline: none;
+  border-color: var(--clay);
+  background: #1b1917;
+}
+
+.cf-field input:user-invalid,
+.cf-field textarea:user-invalid { border-color: #9c4a3a; }
+
+/* honeypot — hidden from humans */
+.cf-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 24px;
+  margin-top: 6px;
+}
+
+.contact-form .btn { border: none; cursor: pointer; }
+.contact-form .btn[disabled] { opacity: 0.55; cursor: default; }
+
+.cf-status {
+  font-size: 0.9rem;
+  color: var(--ink-dim);
+  margin: 0;
+}
+.cf-status.is-ok { color: var(--clay-bright); }
+.cf-status.is-err { color: #d4796a; }
+
+@media (min-width: 620px) {
+  .cf-grid { grid-template-columns: 1fr 1fr; }
+}
+
 .contact-big {
   font-family: var(--display);
   font-size: clamp(1.3rem, 4.6vw, 2.8rem);

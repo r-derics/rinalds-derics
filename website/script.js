@@ -96,6 +96,15 @@
       "contact.kicker": "Next move",
       "contact.title": "Get in touch",
       "contact.cv": "Download CV",
+      "form.title": "Or send a message",
+      "form.name": "Name",
+      "form.email": "Email",
+      "form.message": "Message",
+      "form.send": "Send message",
+      "form.sending": "Sending…",
+      "form.success": "Thanks — your message is on its way.",
+      "form.error": "Something went wrong. Please email me directly.",
+      "form.invalid": "Please fill in every field with a valid email.",
       "footer.credit": "Designed & built by Rinalds Dērics",
 
       "alt.hero": "Rinalds Dērics in a dark suit, portrait at a gala evening",
@@ -197,6 +206,15 @@
       "contact.kicker": "Nākamais solis",
       "contact.title": "Sazinies ar mani",
       "contact.cv": "Lejupielādēt CV",
+      "form.title": "Vai nosūti ziņu",
+      "form.name": "Vārds",
+      "form.email": "E-pasts",
+      "form.message": "Ziņa",
+      "form.send": "Nosūtīt ziņu",
+      "form.sending": "Sūta…",
+      "form.success": "Paldies — tava ziņa ir ceļā.",
+      "form.error": "Kaut kas nogāja greizi. Lūdzu, raksti man tieši uz e-pastu.",
+      "form.invalid": "Lūdzu, aizpildi visus laukus un norādi derīgu e-pastu.",
       "footer.credit": "Dizains un izstrāde — Rinalds Dērics",
 
       "alt.hero": "Rinalds Dērics tumšā uzvalkā, portrets gada balles vakarā",
@@ -473,6 +491,63 @@
       el.addEventListener("mouseleave", function () {
         el.style.transform = "";
       });
+    });
+  }
+
+  /* ------------------------------------------------------------------
+     CONTACT FORM
+  ------------------------------------------------------------------ */
+  var contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    var statusEl = document.getElementById("cfStatus");
+    var submitBtn = contactForm.querySelector('button[type="submit"]');
+
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var dict = I18N[currentLang];
+      statusEl.className = "cf-status";
+
+      if (!contactForm.checkValidity()) {
+        statusEl.textContent = dict["form.invalid"];
+        statusEl.classList.add("is-err");
+        contactForm.reportValidity();
+        return;
+      }
+
+      var fd = new FormData(contactForm);
+      var payload = {
+        name: fd.get("name"),
+        email: fd.get("email"),
+        message: fd.get("message"),
+        company: fd.get("company") // honeypot
+      };
+
+      submitBtn.disabled = true;
+      statusEl.textContent = dict["form.sending"];
+
+      fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      })
+        .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+        .then(function (res) {
+          if (res && res.ok) {
+            statusEl.textContent = dict["form.success"];
+            statusEl.classList.add("is-ok");
+            contactForm.reset();
+          } else {
+            statusEl.textContent = dict["form.error"];
+            statusEl.classList.add("is-err");
+          }
+        })
+        .catch(function () {
+          statusEl.textContent = dict["form.error"];
+          statusEl.classList.add("is-err");
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+        });
     });
   }
 

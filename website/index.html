@@ -408,6 +408,29 @@
                  data-i18n-alt="alt.contact">
           </figure>
         </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <p class="form-title" data-i18n="form.title">Or send a message</p>
+          <div class="cf-grid">
+            <label class="cf-field">
+              <span data-i18n="form.name">Name</span>
+              <input type="text" name="name" autocomplete="name" required maxlength="120">
+            </label>
+            <label class="cf-field">
+              <span data-i18n="form.email">Email</span>
+              <input type="email" name="email" autocomplete="email" required maxlength="254">
+            </label>
+          </div>
+          <label class="cf-field">
+            <span data-i18n="form.message">Message</span>
+            <textarea name="message" rows="5" required maxlength="5000"></textarea>
+          </label>
+          <input type="text" name="company" class="cf-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="cf-actions">
+            <button type="submit" class="btn btn-solid" data-i18n="form.send">Send message</button>
+            <p class="cf-status" id="cfStatus" role="status" aria-live="polite"></p>
+          </div>
+        </form>
       </div>
     </section>
   </main>
