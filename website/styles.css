@@ -710,8 +710,10 @@ a { color: inherit; }
   width: 2px; height: 16px;
 }
 
-.tl-item.is-open .tl-plus::after { transform: scaleY(0); }
-.tl-item.is-open .tl-plus::before { background: var(--clay); }
+.tl-item.is-open .tl-plus::after,
+.acad-entry.is-open .tl-plus::after { transform: scaleY(0); }
+.tl-item.is-open .tl-plus::before,
+.acad-entry.is-open .tl-plus::before { background: var(--clay); }
 
 .tl-panel {
   overflow: hidden;
