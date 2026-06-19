@@ -15,9 +15,13 @@ source of truth for that mapping — update it whenever an asset is swapped.
 | exp-charity.jpg               | Uk Work Rainy Street 2026-01.jpg             | 1400   | Experience #4  |
 | disc-physique.jpg             | Physique Garden Roses 2025-07.jpg            | 1600   | Discipline     |
 | disc-marathon.jpg             | Riga Marathon 21km Medal Selfie 2024-05.jpeg | 1400   | Discipline     |
-| acad-certificate.jpg          | RTK Silver Certificate 2023-2024 Sem2.jpg    | 900    | Academics      |
+| acad-school.jpg               | Basic Education Certificate 2022.jpg         | 1400   | Academics — school   |
+| acad-rtk-silver-2024.jpg      | RTK Silver Certificate 2023-2024 Sem2.jpg    | 1400   | Academics — RTK      |
+| acad-rtk-silver-2023.jpg      | RTK Silver Certificate 2022-2023.jpg         | 1400   | Academics — RTK      |
+| acad-rtk-bronze-2024.jpg      | RTK Bronze Certificate 2023-2024 Sem1.jpg    | 1400   | Academics — RTK      |
+| acad-rtk-skills.jpg           | RTK SkillsLatvija Recognition 2024-05.HEIC   | 1400   | Academics — RTK      |
 | contact-cherry.jpg            | Cherry Blossom Park White Outfit Close Up.jpg| 1300   | Contact        |
-| cv.pdf                        | Personal Brand Text/CV_Rinalds_Dērics.pdf    | —      | View/Download CV |
+| cv.pdf                        | Personal Brand Text/Rinalds_Dērics_CV.pdf    | —      | View/Download CV |
 
 ## Generated (not from the photo library)
 

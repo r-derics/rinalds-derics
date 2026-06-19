@@ -18,6 +18,7 @@
       "nav.ventures": "Ventures",
       "nav.experience": "Experience",
       "nav.discipline": "Discipline",
+      "nav.academics": "Academics",
       "nav.contact": "Contact",
 
       "hero.loc": "Riga, Latvia",
@@ -86,25 +87,22 @@
 
       "acad.kicker": "On the record",
       "acad.title": "Academics",
-      "acad.1.h": "Silver Merit Certificate",
-      "acad.1.p": "Rīgas Tehniskā koledža — grade average above 8/10.",
-      "acad.2.h": "Computer Systems Technician",
-      "acad.2.p": "Rīgas Tehniskā koledža, EQF level 4 — 2026.",
-      "acad.3.h": "Fitness Trainer, Category C",
-      "acad.3.p": "Sporta izglītības aģentūra — in progress, 2026.",
+      "acad.rtk.inst": "Rīgas Tehniskā koledža",
+      "acad.rtk.cred": "Computer Systems Technician · EQF level 4",
+      "acad.rtk.date": "2026",
+      "acad.rtk.b1": "Grade average above 8/10 — repeated Silver merit certificates across the programme.",
+      "acad.rtk.b2": "Recognised at the SkillsLatvija national competition, 2024.",
+      "acad.school.inst": "Rīgas 64. vidusskola",
+      "acad.school.cred": "General basic education",
+      "acad.school.b1": "Certificate of general basic education, issued June 2022.",
+      "acad.fit.inst": "Sporta izglītības aģentūra",
+      "acad.fit.cred": "Fitness Trainer, Category C",
+      "acad.fit.date": "In progress, 2026",
+      "acad.fit.b1": "Certification in progress — expected 2026.",
 
       "contact.kicker": "Next move",
       "contact.title": "Get in touch",
       "contact.cv": "Download CV",
-      "form.title": "Or send a message",
-      "form.name": "Name",
-      "form.email": "Email",
-      "form.message": "Message",
-      "form.send": "Send message",
-      "form.sending": "Sending…",
-      "form.success": "Thanks — your message is on its way.",
-      "form.error": "Something went wrong. Please email me directly.",
-      "form.invalid": "Please fill in every field with a valid email.",
       "footer.credit": "Designed & built by Rinalds Dērics",
 
       "alt.hero": "Rinalds Dērics in a dark suit, portrait at a gala evening",
@@ -116,7 +114,11 @@
       "alt.contact": "Rinalds Dērics, portrait in a white outfit at a cherry-blossom park",
       "alt.disc1": "Rinalds Dērics, physique after four years of training, garden backdrop",
       "alt.disc2": "Rinalds with his Riga Marathon half-marathon finisher medal",
-      "alt.cert": "RTK Silver Merit Certificate, 2023/2024",
+      "alt.certRtkSilver24": "RTK Silver merit certificate, 2023/2024 semester 2",
+      "alt.certRtkSilver23": "RTK Silver merit certificate, 2022/2023",
+      "alt.certRtkBronze24": "RTK Bronze merit certificate, 2023/2024 semester 1",
+      "alt.certRtkSkills": "SkillsLatvija competition recognition, 2024",
+      "alt.certSchool": "Certificate of general basic education, Rīgas 64. vidusskola, 2022",
 
       "title": "Rinalds Dērics — Riga, Latvia"
     },
@@ -128,6 +130,7 @@
       "nav.ventures": "Projekti",
       "nav.experience": "Pieredze",
       "nav.discipline": "Disciplīna",
+      "nav.academics": "Izglītība",
       "nav.contact": "Kontakti",
 
       "hero.loc": "Rīga, Latvija",
@@ -196,25 +199,22 @@
 
       "acad.kicker": "Melns uz balta",
       "acad.title": "Akadēmiskie sasniegumi",
-      "acad.1.h": "Sudraba sertifikāts par sasniegumiem",
-      "acad.1.p": "Rīgas Tehniskā koledža — vidējā atzīme virs 8/10.",
-      "acad.2.h": "Datorsistēmu tehniķis",
-      "acad.2.p": "Rīgas Tehniskā koledža, 4. EKI līmenis — 2026.",
-      "acad.3.h": "C kategorijas fitnesa treneris",
-      "acad.3.p": "Sporta izglītības aģentūra — apmācība procesā, 2026.",
+      "acad.rtk.inst": "Rīgas Tehniskā koledža",
+      "acad.rtk.cred": "Datorsistēmu tehniķis · 4. EKI līmenis",
+      "acad.rtk.date": "2026",
+      "acad.rtk.b1": "Vidējā atzīme virs 8/10 — vairākkārtēji Sudraba sertifikāti par sasniegumiem mācībās.",
+      "acad.rtk.b2": "Atzinība SkillsLatvija nacionālajā konkursā, 2024.",
+      "acad.school.inst": "Rīgas 64. vidusskola",
+      "acad.school.cred": "Vispārējā pamatizglītība",
+      "acad.school.b1": "Apliecība par vispārējo pamatizglītību, izsniegta 2022. gada jūnijā.",
+      "acad.fit.inst": "Sporta izglītības aģentūra",
+      "acad.fit.cred": "C kategorijas fitnesa treneris",
+      "acad.fit.date": "Procesā, 2026",
+      "acad.fit.b1": "Sertifikācija procesā — plānota 2026. gadā.",
 
       "contact.kicker": "Nākamais solis",
       "contact.title": "Sazinies ar mani",
       "contact.cv": "Lejupielādēt CV",
-      "form.title": "Vai nosūti ziņu",
-      "form.name": "Vārds",
-      "form.email": "E-pasts",
-      "form.message": "Ziņa",
-      "form.send": "Nosūtīt ziņu",
-      "form.sending": "Sūta…",
-      "form.success": "Paldies — tava ziņa ir ceļā.",
-      "form.error": "Kaut kas nogāja greizi. Lūdzu, raksti man tieši uz e-pastu.",
-      "form.invalid": "Lūdzu, aizpildi visus laukus un norādi derīgu e-pastu.",
       "footer.credit": "Dizains un izstrāde — Rinalds Dērics",
 
       "alt.hero": "Rinalds Dērics tumšā uzvalkā, portrets gada balles vakarā",
@@ -226,7 +226,11 @@
       "alt.contact": "Rinalds Dērics, portrets baltā tērpā ķiršu ziedu parkā",
       "alt.disc1": "Rinalds Dērics, ķermeņa forma pēc četriem treniņu gadiem, dārza fonā",
       "alt.disc2": "Rinalds ar Rīgas maratona pusmaratona finišētāja medaļu",
-      "alt.cert": "RTK Sudraba sertifikāts, 2023./2024.",
+      "alt.certRtkSilver24": "RTK Sudraba sertifikāts, 2023./2024. 2. semestris",
+      "alt.certRtkSilver23": "RTK Sudraba sertifikāts, 2022./2023.",
+      "alt.certRtkBronze24": "RTK Bronzas sertifikāts, 2023./2024. 1. semestris",
+      "alt.certRtkSkills": "SkillsLatvija konkursa atzinība, 2024.",
+      "alt.certSchool": "Apliecība par vispārējo pamatizglītību, Rīgas 64. vidusskola, 2022.",
 
       "title": "Rinalds Dērics — Rīga, Latvija"
     }
@@ -491,63 +495,6 @@
       el.addEventListener("mouseleave", function () {
         el.style.transform = "";
       });
-    });
-  }
-
-  /* ------------------------------------------------------------------
-     CONTACT FORM
-  ------------------------------------------------------------------ */
-  var contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    var statusEl = document.getElementById("cfStatus");
-    var submitBtn = contactForm.querySelector('button[type="submit"]');
-
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var dict = I18N[currentLang];
-      statusEl.className = "cf-status";
-
-      if (!contactForm.checkValidity()) {
-        statusEl.textContent = dict["form.invalid"];
-        statusEl.classList.add("is-err");
-        contactForm.reportValidity();
-        return;
-      }
-
-      var fd = new FormData(contactForm);
-      var payload = {
-        name: fd.get("name"),
-        email: fd.get("email"),
-        message: fd.get("message"),
-        company: fd.get("company") // honeypot
-      };
-
-      submitBtn.disabled = true;
-      statusEl.textContent = dict["form.sending"];
-
-      fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      })
-        .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
-        .then(function (res) {
-          if (res && res.ok) {
-            statusEl.textContent = dict["form.success"];
-            statusEl.classList.add("is-ok");
-            contactForm.reset();
-          } else {
-            statusEl.textContent = dict["form.error"];
-            statusEl.classList.add("is-err");
-          }
-        })
-        .catch(function () {
-          statusEl.textContent = dict["form.error"];
-          statusEl.classList.add("is-err");
-        })
-        .finally(function () {
-          submitBtn.disabled = false;
-        });
     });
   }
 
