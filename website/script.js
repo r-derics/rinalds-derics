@@ -129,7 +129,7 @@
       "alt.certRtkSkills": "SkillsLatvija competition recognition, 2024",
       "alt.certSchool": "Certificate of general basic education, Rīgas 64. vidusskola, 2022",
 
-      "title": "Rinalds Dērics — Riga, Latvia"
+      "title": "Rinalds Dērics"
     },
 
     lv: {
@@ -250,7 +250,7 @@
       "alt.certRtkSkills": "SkillsLatvija konkursa atzinība, 2024.",
       "alt.certSchool": "Apliecība par vispārējo pamatizglītību, Rīgas 64. vidusskola, 2022.",
 
-      "title": "Rinalds Dērics — Rīga, Latvija"
+      "title": "Rinalds Dērics"
     }
   };
 
