@@ -887,7 +887,14 @@ a { color: inherit; }
 .acad-entry { border-bottom: 1px solid var(--line); }
 
 /* academics reuses the .tl-head / .tl-panel accordion (no timeline rail) */
-.acad-head { padding-left: 18px; }
+.acad-head { padding-left: 18px; align-items: center; }
+
+/* keep the three text columns tight + vertically centred so the grey
+   credential lines align across every row */
+.acad-head .tl-role,
+.acad-head .tl-org,
+.acad-head .tl-date { margin: 0; line-height: 1.25; }
+.acad-head .tl-date { white-space: nowrap; }
 
 @media (min-width: 800px) {
   .acad-head {
