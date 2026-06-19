@@ -215,7 +215,7 @@
       "disc.found.choir.a": "Koris",
       "disc.found.choir.m": "Rīgas 64. vidusskola · 2013–2018",
 
-      "acad.kicker": "Melns uz balta",
+      "acad.kicker": "Oficiāli apstiprināts",
       "acad.title": "Akadēmiskie sasniegumi",
       "acad.rtk.inst": "Rīgas Tehniskā koledža",
       "acad.rtk.cred": "Datorsistēmu tehniķis · vidējā profesionālā izglītība",
