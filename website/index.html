@@ -28,7 +28,6 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Rinalds Dērics — Riga, Latvia">
   <meta property="og:locale" content="en">
-  <meta property="og:locale:alternate" content="lv">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -75,6 +74,7 @@
       <a href="#ventures" data-i18n="nav.ventures">Ventures</a>
       <a href="#experience" data-i18n="nav.experience">Experience</a>
       <a href="#discipline" data-i18n="nav.discipline">Discipline</a>
+      <a href="#academics" data-i18n="nav.academics">Academics</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
     <div class="lang" role="group" aria-label="Language">
@@ -366,24 +366,79 @@
           <p class="section-kicker" data-i18n="acad.kicker">On the record</p>
           <h2 class="section-title" data-i18n="acad.title">Academics</h2>
         </header>
-        <div class="acad-grid">
-          <article class="acad-item reveal">
-            <h3 data-i18n="acad.1.h">Silver Merit Certificate</h3>
-            <p data-i18n="acad.1.p">Rīgas Tehniskā koledža — grade average above 8/10.</p>
-          </article>
-          <article class="acad-item reveal">
-            <h3 data-i18n="acad.2.h">Computer Systems Technician</h3>
-            <p data-i18n="acad.2.p">Rīgas Tehniskā koledža, EQF level 4 — 2026.</p>
-          </article>
-          <article class="acad-item reveal">
-            <h3 data-i18n="acad.3.h">Fitness Trainer, Category C</h3>
-            <p data-i18n="acad.3.p">Sporta izglītības aģentūra — in progress, 2026.</p>
-          </article>
-          <figure class="acad-cert reveal">
-            <img src="assets/acad-certificate.jpg" loading="lazy" width="675" height="900"
-                 alt="RTK Silver Merit Certificate, 2023/2024"
-                 data-i18n-alt="alt.cert">
-          </figure>
+        <div class="acad-list">
+          <div class="acad-entry reveal">
+            <button type="button" class="tl-head acad-head" id="acad1-btn" aria-expanded="false" aria-controls="acad1-panel">
+              <span class="tl-role" data-i18n="acad.rtk.inst">Rīgas Tehniskā koledža</span>
+              <span class="tl-org" data-i18n="acad.rtk.cred">Computer Systems Technician · EQF level 4</span>
+              <span class="tl-date" data-i18n="acad.rtk.date">2026</span>
+              <span class="tl-plus" aria-hidden="true"></span>
+            </button>
+            <div class="tl-panel" id="acad1-panel" role="region" aria-labelledby="acad1-btn">
+              <div class="tl-panel-inner">
+                <ul>
+                  <li data-i18n="acad.rtk.b1">Grade average above 8/10 — repeated Silver merit certificates across the programme.</li>
+                  <li data-i18n="acad.rtk.b2">Recognised at the SkillsLatvija national competition, 2024.</li>
+                </ul>
+                <div class="cert-grid">
+                  <a class="cert-thumb" href="assets/acad-rtk-silver-2024.jpg" target="_blank" rel="noopener">
+                    <img src="assets/acad-rtk-silver-2024.jpg" loading="lazy" width="1050" height="1400"
+                         alt="RTK Silver merit certificate, 2023/2024 semester 2" data-i18n-alt="alt.certRtkSilver24">
+                  </a>
+                  <a class="cert-thumb" href="assets/acad-rtk-silver-2023.jpg" target="_blank" rel="noopener">
+                    <img src="assets/acad-rtk-silver-2023.jpg" loading="lazy" width="1050" height="1400"
+                         alt="RTK Silver merit certificate, 2022/2023" data-i18n-alt="alt.certRtkSilver23">
+                  </a>
+                  <a class="cert-thumb" href="assets/acad-rtk-bronze-2024.jpg" target="_blank" rel="noopener">
+                    <img src="assets/acad-rtk-bronze-2024.jpg" loading="lazy" width="1050" height="1400"
+                         alt="RTK Bronze merit certificate, 2023/2024 semester 1" data-i18n-alt="alt.certRtkBronze24">
+                  </a>
+                  <a class="cert-thumb" href="assets/acad-rtk-skills.jpg" target="_blank" rel="noopener">
+                    <img src="assets/acad-rtk-skills.jpg" loading="lazy" width="1008" height="1400"
+                         alt="SkillsLatvija competition recognition, 2024" data-i18n-alt="alt.certRtkSkills">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="acad-entry reveal">
+            <button type="button" class="tl-head acad-head" id="acad2-btn" aria-expanded="false" aria-controls="acad2-panel">
+              <span class="tl-role" data-i18n="acad.school.inst">Rīgas 64. vidusskola</span>
+              <span class="tl-org" data-i18n="acad.school.cred">General basic education</span>
+              <span class="tl-date">2022</span>
+              <span class="tl-plus" aria-hidden="true"></span>
+            </button>
+            <div class="tl-panel" id="acad2-panel" role="region" aria-labelledby="acad2-btn">
+              <div class="tl-panel-inner">
+                <ul>
+                  <li data-i18n="acad.school.b1">Certificate of general basic education, issued June 2022.</li>
+                </ul>
+                <div class="cert-grid">
+                  <a class="cert-thumb" href="assets/acad-school.jpg" target="_blank" rel="noopener">
+                    <img src="assets/acad-school.jpg" loading="lazy" width="1400" height="1050"
+                         alt="Certificate of general basic education, Rīgas 64. vidusskola, 2022" data-i18n-alt="alt.certSchool">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="acad-entry reveal">
+            <button type="button" class="tl-head acad-head" id="acad3-btn" aria-expanded="false" aria-controls="acad3-panel">
+              <span class="tl-role" data-i18n="acad.fit.inst">Sporta izglītības aģentūra</span>
+              <span class="tl-org" data-i18n="acad.fit.cred">Fitness Trainer, Category C</span>
+              <span class="tl-date" data-i18n="acad.fit.date">In progress, 2026</span>
+              <span class="tl-plus" aria-hidden="true"></span>
+            </button>
+            <div class="tl-panel" id="acad3-panel" role="region" aria-labelledby="acad3-btn">
+              <div class="tl-panel-inner">
+                <ul>
+                  <li data-i18n="acad.fit.b1">Certification in progress — expected 2026.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -408,29 +463,6 @@
                  data-i18n-alt="alt.contact">
           </figure>
         </div>
-
-        <form class="contact-form reveal" id="contactForm" novalidate>
-          <p class="form-title" data-i18n="form.title">Or send a message</p>
-          <div class="cf-grid">
-            <label class="cf-field">
-              <span data-i18n="form.name">Name</span>
-              <input type="text" name="name" autocomplete="name" required maxlength="120">
-            </label>
-            <label class="cf-field">
-              <span data-i18n="form.email">Email</span>
-              <input type="email" name="email" autocomplete="email" required maxlength="254">
-            </label>
-          </div>
-          <label class="cf-field">
-            <span data-i18n="form.message">Message</span>
-            <textarea name="message" rows="5" required maxlength="5000"></textarea>
-          </label>
-          <input type="text" name="company" class="cf-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <div class="cf-actions">
-            <button type="submit" class="btn btn-solid" data-i18n="form.send">Send message</button>
-            <p class="cf-status" id="cfStatus" role="status" aria-live="polite"></p>
-          </div>
-        </form>
       </div>
     </section>
   </main>

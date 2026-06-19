@@ -33,21 +33,10 @@ git commit -m "describe the change"
 git push origin main
 ```
 
-## Contact form
+## Contact
 
-The contact form posts to a Cloudflare Pages Function at `functions/api/contact.js`
-(served at `/api/contact`), which emails submissions via [Resend](https://resend.com).
-
-Required setup (one-time, in the Cloudflare Pages dashboard):
-
-1. Create a free Resend account using `rinalds.derics@gmail.com` (messages are
-   delivered to that address; no custom domain needed — the form sends from
-   Resend's shared `onboarding@resend.dev`).
-2. In Resend, create an API key.
-3. In Cloudflare → the Pages project → **Settings → Environment variables**, add
-   `RESEND_API_KEY` (Production + Preview), then redeploy.
-
-Until the key is set, the endpoint returns `{"ok":false,"error":"not_configured"}`.
+Visitors reach out via the direct email and Instagram links in the Contact
+section — there is no server-side form. The site is fully static.
 
 ## Analytics
 
