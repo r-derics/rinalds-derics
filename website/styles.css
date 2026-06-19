@@ -899,10 +899,13 @@ a { color: inherit; }
 @media (min-width: 800px) {
   .acad-head {
     grid-template-areas: "role org date plus";
-    grid-template-columns: minmax(220px, 1.3fr) 1fr auto auto;
+    /* fixed date column so the grey credential text starts at the same
+       x in every row regardless of how long the date string is */
+    grid-template-columns: minmax(220px, 1.3fr) 1fr 12rem auto;
     align-items: center;
     min-height: 4.4rem;
   }
+  .acad-head .tl-date { text-align: right; }
 }
 
 /* certificate thumbnails inside an open panel — whole document, no crop */
