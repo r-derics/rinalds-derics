@@ -900,7 +900,10 @@ a { color: inherit; }
   .acad-head {
     grid-template-areas: "role org date plus";
     grid-template-columns: minmax(220px, 1.3fr) 1fr auto auto;
+    align-items: baseline;
   }
+  /* role, credential and year share one baseline; keep the + centred */
+  .acad-head .tl-plus { align-self: center; }
 }
 
 /* certificate thumbnails inside an open panel — whole document, no crop */
