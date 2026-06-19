@@ -218,7 +218,7 @@
       "acad.kicker": "Melns uz balta",
       "acad.title": "Akadēmiskie sasniegumi",
       "acad.rtk.inst": "Rīgas Tehniskā koledža",
-      "acad.rtk.cred": "Datorsistēmu tehniķis · 4. EKI līmenis",
+      "acad.rtk.cred": "Datorsistēmu tehniķis · vidējā profesionālā izglītība",
       "acad.rtk.date": "2026",
       "acad.rtk.b1": "Vidējā atzīme virs 8/10 — vairākkārtēji Sudraba sertifikāti par sasniegumiem mācībās.",
       "acad.rtk.b2": "Atzinība SkillsLatvija nacionālajā konkursā, 2024.",
