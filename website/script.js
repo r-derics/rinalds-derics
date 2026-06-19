@@ -393,18 +393,18 @@
   ------------------------------------------------------------------ */
   document.querySelectorAll(".tl-head").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var item = btn.closest(".tl-item");
+      var item = btn.closest(".tl-item, .acad-entry");
       var panel = document.getElementById(btn.getAttribute("aria-controls"));
       var open = btn.getAttribute("aria-expanded") === "true";
       btn.setAttribute("aria-expanded", String(!open));
-      item.classList.toggle("is-open", !open);
+      if (item) item.classList.toggle("is-open", !open);
       panel.style.maxHeight = open ? "0px" : panel.scrollHeight + "px";
     });
   });
 
   // keep open panels sized correctly on resize / language change
   function refreshPanels() {
-    document.querySelectorAll(".tl-item.is-open .tl-panel").forEach(function (panel) {
+    document.querySelectorAll(".tl-item.is-open .tl-panel, .acad-entry.is-open .tl-panel").forEach(function (panel) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     });
   }
