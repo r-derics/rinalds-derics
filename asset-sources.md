@@ -28,5 +28,4 @@ source of truth for that mapping — update it whenever an asset is swapped.
 | Asset                                                  | How it's made                                  |
 | ------------------------------------------------------ | ---------------------------------------------- |
 | og-image.jpg                                           | 1200×630 social card composed from hero-gala.jpg |
-| favicon-32 / apple-touch-icon / icon-192 / icon-512.png| "RD" monogram, dark text on clay               |
-| favicon.svg                                            | Scalable "RD" monogram                         |
+| favicon-32 / apple-touch-icon / icon-192 / icon-512.png| Generated from `assets/Rinalds-Derics logo.png` (transparent clay RD mark), centered on a transparent square |
