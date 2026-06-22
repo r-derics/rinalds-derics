@@ -765,9 +765,10 @@ a { color: inherit; }
 @media (min-width: 800px) {
   .tl-head {
     grid-template-areas: "marker role org date plus";
-    grid-template-columns: auto minmax(220px, 1.3fr) 1fr auto auto;
+    grid-template-columns: auto minmax(220px, 1.3fr) 1fr 12rem auto;
   }
   .tl-org, .tl-date { margin-top: 0; }
+  .tl-date { text-align: right; }
   .tl-panel-media { grid-template-columns: 1fr auto; align-items: start; }
 }
 
@@ -873,7 +874,6 @@ a { color: inherit; }
 @media (min-width: 700px) {
   .stats-row { grid-template-columns: repeat(5, auto); justify-content: space-between; }
   .disc-media { grid-template-columns: 1fr 1fr; gap: 28px; }
-  .disc-media figure:nth-child(2) { transform: translateY(56px); }
 }
 
 /* ==========================================================================
