@@ -19,3 +19,6 @@
 
 /script.js
   Cache-Control: public, max-age=0, must-revalidate
+
+/cv.pdf
+  Cache-Control: public, max-age=0, must-revalidate
