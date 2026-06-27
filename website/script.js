@@ -123,11 +123,14 @@
       "alt.contact": "Rinalds Dērics, portrait in a white outfit at a cherry-blossom park",
       "alt.disc1": "Rinalds Dērics, physique after four years of training, garden backdrop",
       "alt.disc2": "Rinalds with his Riga Marathon half-marathon finisher medal",
+      "alt.certRtkDiploma": "RTK diploma of secondary vocational education",
+      "alt.certRtkTranscript": "RTK diploma grade transcript",
       "alt.certRtkSilver24": "RTK Silver merit certificate, 2023/2024 semester 2",
       "alt.certRtkSilver23": "RTK Silver merit certificate, 2022/2023",
       "alt.certRtkBronze24": "RTK Bronze merit certificate, 2023/2024 semester 1",
-      "alt.certRtkSkills": "SkillsLatvija competition recognition, 2024",
+      "alt.certRtkRecognition": "RTK recognition — SkillsLatvija 2024",
       "alt.certSchool": "Certificate of general basic education, Rīgas 64. vidusskola, 2022",
+      "alt.certSchoolTranscript": "Basic education grade transcript, 2022",
 
       "title": "Rinalds Dērics"
     },
@@ -244,11 +247,14 @@
       "alt.contact": "Rinalds Dērics, portrets baltā tērpā ķiršu ziedu parkā",
       "alt.disc1": "Rinalds Dērics, ķermeņa forma pēc četriem treniņu gadiem, dārza fonā",
       "alt.disc2": "Rinalds ar Rīgas maratona pusmaratona finišētāja medaļu",
-      "alt.certRtkSilver24": "RTK Sudraba sertifikāts, 2023./2024. 2. semestris",
-      "alt.certRtkSilver23": "RTK Sudraba sertifikāts, 2022./2023.",
-      "alt.certRtkBronze24": "RTK Bronzas sertifikāts, 2023./2024. 1. semestris",
-      "alt.certRtkSkills": "SkillsLatvija konkursa atzinība, 2024.",
+      "alt.certRtkDiploma": "RTK diploms par vidējo profesionālo izglītību",
+      "alt.certRtkTranscript": "RTK diploma sekmju izraksts",
+      "alt.certRtkSilver24": "RTK Sudraba liecība, 2023./2024. 2. semestris",
+      "alt.certRtkSilver23": "RTK Sudraba liecība, 2022./2023.",
+      "alt.certRtkBronze24": "RTK Bronzas liecība, 2023./2024. 1. semestris",
+      "alt.certRtkRecognition": "RTK pateicība — SkillsLatvija 2024",
       "alt.certSchool": "Apliecība par vispārējo pamatizglītību, Rīgas 64. vidusskola, 2022.",
+      "alt.certSchoolTranscript": "Sekmju izraksts par pamatizglītību, 2022.",
 
       "title": "Rinalds Dērics"
     }
