@@ -523,6 +523,57 @@
   }
 
   /* ------------------------------------------------------------------
+     LIGHTBOX — certificate scans open larger in place
+  ------------------------------------------------------------------ */
+  var certLinks = document.querySelectorAll(".cert-thumb");
+  if (certLinks.length) {
+    var lb = document.createElement("div");
+    lb.className = "lightbox";
+    lb.setAttribute("aria-hidden", "true");
+    lb.setAttribute("role", "dialog");
+    lb.setAttribute("aria-modal", "true");
+    lb.innerHTML =
+      '<button type="button" class="lightbox-close" aria-label="Close">×</button>' +
+      '<img class="lightbox-img" alt="">';
+    document.body.appendChild(lb);
+
+    var lbImg = lb.querySelector(".lightbox-img");
+    var lbClose = lb.querySelector(".lightbox-close");
+    var lastFocus = null;
+
+    function openLightbox(href, alt) {
+      lbImg.setAttribute("src", href);
+      lbImg.setAttribute("alt", alt || "");
+      lb.classList.add("is-open");
+      lb.setAttribute("aria-hidden", "false");
+      document.documentElement.style.overflow = "hidden";
+      lastFocus = document.activeElement;
+      lbClose.focus();
+    }
+    function closeLightbox() {
+      lb.classList.remove("is-open");
+      lb.setAttribute("aria-hidden", "true");
+      document.documentElement.style.overflow = "";
+      lbImg.removeAttribute("src");
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
+
+    certLinks.forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        var img = a.querySelector("img");
+        openLightbox(a.getAttribute("href"), img ? img.getAttribute("alt") : "");
+      });
+    });
+    lb.addEventListener("click", function (e) {
+      if (e.target === lb || e.target === lbClose) closeLightbox();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && lb.classList.contains("is-open")) closeLightbox();
+    });
+  }
+
+  /* ------------------------------------------------------------------
      INIT
   ------------------------------------------------------------------ */
   var saved = null;

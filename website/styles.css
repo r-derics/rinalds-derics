@@ -942,11 +942,64 @@ a { color: inherit; }
   transition: filter 0.3s ease;
 }
 
+.cert-thumb { cursor: zoom-in; }
 .cert-thumb:hover { border-color: var(--clay); }
 .cert-thumb:hover img { filter: grayscale(0); }
 
 @media (max-width: 520px) {
   .cert-thumb { height: 168px; }
+}
+
+/* lightbox — opens a larger view of a certificate in place */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 5vw, 64px);
+  background: rgba(15, 15, 15, 0.94);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  cursor: zoom-out;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.28s ease, visibility 0.28s;
+}
+
+.lightbox.is-open { opacity: 1; visibility: visible; }
+
+.lightbox-img {
+  max-width: min(900px, 92vw);
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--line);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  cursor: default;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: clamp(10px, 3vw, 24px);
+  right: clamp(10px, 3vw, 24px);
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: none;
+  color: var(--ink);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.lightbox-close:hover { color: var(--clay-bright); }
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox { transition: none; }
 }
 
 /* ==========================================================================

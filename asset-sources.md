@@ -25,7 +25,7 @@ that mapping — update it whenever an asset is swapped.
 | acad-rtk-bronze-2024.jpg      | All Diplomas (scanned).pdf p4                | 1400   | Academics — RTK      |
 | acad-rtk-recognition.jpg      | All Diplomas (scanned).pdf p6 (Pateicība)    | 1400   | Academics — RTK      |
 | contact-cherry.jpg            | Cherry Blossom Park White Outfit Close Up.jpg| 1300   | Contact        |
-| cv.pdf                        | Personal Brand Text/Rinalds_Dērics_CV.pdf    | —      | View/Download CV |
+| cv.pdf (at site root, `/cv.pdf`) | Personal Brand Text/Rinalds_Dērics_CV.pdf | —      | View/Download CV |
 
 ## Generated (not from the photo library)
 
