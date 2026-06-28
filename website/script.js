@@ -132,7 +132,63 @@
       "alt.certSchool": "Certificate of general basic education, Rīgas 64. vidusskola, 2022",
       "alt.certSchoolTranscript": "Basic education grade transcript, 2022",
 
-      "title": "Rinalds Dērics"
+      "switch.toTrainer": "Personal training →",
+      "switch.toBusiness": "Business & ventures →",
+
+      "hub.tagline": "Riga, Latvia",
+      "hub.choose": "Two paths — pick one",
+      "hub.business.t": "Business & Ventures",
+      "hub.business.d": "Systems, ventures and the academic record behind them.",
+      "hub.trainer.t": "Personal Training",
+      "hub.trainer.d": "Discipline, real results and training with me.",
+
+      "tr.nav.why": "Why me",
+      "tr.nav.results": "Results",
+      "tr.nav.training": "Training",
+      "tr.nav.contact": "Contact",
+      "tr.hero.loc": "Riga, Latvia",
+      "tr.hero.kicker": "Personal training",
+      "tr.hero.tagline": "I train the way I'd coach you — consistently, with a plan, for the long run.",
+      "tr.hero.cta": "Train with me",
+      "tr.hero.scroll": "Scroll",
+      "tr.badge": "Fitness Trainer, Category C — certifying 2026",
+
+      "tr.why.kicker": "Why train with me",
+      "tr.why.title": "Discipline you can borrow",
+      "tr.why.lead": "No shortcuts, no hype. Four years under the bar and on the road taught me that progress is just showing up — and I'll keep you showing up.",
+      "tr.why.1.h": "Consistency over hype",
+      "tr.why.1.p": "A marathon, two half-marathons and four years of lifting. Results come from steady work, and that's exactly what I coach.",
+      "tr.why.2.h": "A system, not guesswork",
+      "tr.why.2.p": "Structured programming and tracked progress — the same systems thinking I bring to everything I build.",
+      "tr.why.3.h": "I do the work too",
+      "tr.why.3.p": "I practise what I coach: in the gym, under the same bar, chasing the same standards I'll set for you.",
+
+      "tr.results.kicker": "Proof in my own training",
+      "tr.results.title": "My numbers",
+      "tr.results.s1": "bench press",
+      "tr.results.s2": "squat",
+      "tr.results.s3": "deadlift",
+      "tr.results.s4": "marathon",
+      "tr.results.s5": "half-marathons",
+      "tr.results.note": "Lifts at 83 kg bodyweight · 4 years of training",
+      "tr.results.client": "Client results will appear here as I take on my first people.",
+
+      "tr.offer.kicker": "Training",
+      "tr.offer.title": "How we'd work",
+      "tr.offer.lead": "I'm completing my Fitness Trainer (Category C) certification in 2026 and taking on a first group of motivated people now — reach out to be among the first.",
+      "tr.offer.1.h": "In person — Riga",
+      "tr.offer.1.p": "One-on-one sessions: technique, programming and accountability.",
+      "tr.offer.2.h": "Online coaching",
+      "tr.offer.2.p": "A plan built around your goals, with regular check-ins and adjustments.",
+      "tr.offer.3.h": "New to the gym?",
+      "tr.offer.3.p": "We'll build the basics and the habit first — no overwhelm.",
+
+      "tr.contact.kicker": "Next step",
+      "tr.contact.title": "Train with me",
+      "tr.contact.lead": "Tell me your goal and where you're starting from — I'll reply personally.",
+
+      "title": "Rinalds Dērics",
+      "title.trainer": "Rinalds Dērics — Personal Training"
     },
 
     lv: {
@@ -256,7 +312,63 @@
       "alt.certSchool": "Apliecība par vispārējo pamatizglītību, Rīgas 64. vidusskola, 2022.",
       "alt.certSchoolTranscript": "Sekmju izraksts par pamatizglītību, 2022.",
 
-      "title": "Rinalds Dērics"
+      "switch.toTrainer": "Personīgie treniņi →",
+      "switch.toBusiness": "Bizness un projekti →",
+
+      "hub.tagline": "Rīga, Latvija",
+      "hub.choose": "Divi virzieni — izvēlies",
+      "hub.business.t": "Bizness un projekti",
+      "hub.business.d": "Sistēmas, projekti un akadēmiskais pamats aiz tiem.",
+      "hub.trainer.t": "Personīgie treniņi",
+      "hub.trainer.d": "Disciplīna, reāli rezultāti un treniņi kopā ar mani.",
+
+      "tr.nav.why": "Kāpēc es",
+      "tr.nav.results": "Rezultāti",
+      "tr.nav.training": "Treniņi",
+      "tr.nav.contact": "Kontakti",
+      "tr.hero.loc": "Rīga, Latvija",
+      "tr.hero.kicker": "Personīgie treniņi",
+      "tr.hero.tagline": "Es trenējos tā, kā trenēšu tevi — konsekventi, ar plānu, ilgtermiņā.",
+      "tr.hero.cta": "Trenējies pie manis",
+      "tr.hero.scroll": "Ritini",
+      "tr.badge": "C kategorijas fitnesa treneris — sertifikācija 2026",
+
+      "tr.why.kicker": "Kāpēc trenēties pie manis",
+      "tr.why.title": "Disciplīna, ko aizņemties",
+      "tr.why.lead": "Bez īsceļiem un tukšiem solījumiem. Četri gadi sporta zālē un uz ceļa man iemācīja, ka progress ir vienkārši ierašanās — un es palīdzēšu tev ierasties.",
+      "tr.why.1.h": "Konsekvence, ne ažiotāža",
+      "tr.why.1.p": "Maratons, divi pusmaratoni un četri gadi spēka treniņu. Rezultāti nāk no stabila darba — tieši to es arī mācu.",
+      "tr.why.2.h": "Sistēma, ne minēšana",
+      "tr.why.2.p": "Strukturēts plāns un izsekots progress — tā pati sistēmiskā domāšana, ko izmantoju visā, ko veidoju.",
+      "tr.why.3.h": "Es arī daru darbu",
+      "tr.why.3.p": "Es dzīvoju to, ko mācu: zālē, zem tās pašas stieņa, tiecoties pēc tiem pašiem standartiem, ko izvirzīšu tev.",
+
+      "tr.results.kicker": "Pierādījums manos treniņos",
+      "tr.results.title": "Mani skaitļi",
+      "tr.results.s1": "spiešana guļus",
+      "tr.results.s2": "pietupiens",
+      "tr.results.s3": "vilkme",
+      "tr.results.s4": "maratons",
+      "tr.results.s5": "pusmaratoni",
+      "tr.results.note": "Cēlieni pie 83 kg ķermeņa svara · 4 gadi treniņu",
+      "tr.results.client": "Klientu rezultāti parādīsies šeit, kad uzņemšu pirmos.",
+
+      "tr.offer.kicker": "Treniņi",
+      "tr.offer.title": "Kā strādāsim",
+      "tr.offer.lead": "2026. gadā pabeidzu C kategorijas fitnesa trenera sertifikāciju un jau tagad uzņemu pirmo motivētu cilvēku grupu — piesakies, lai būtu starp pirmajiem.",
+      "tr.offer.1.h": "Klātienē — Rīga",
+      "tr.offer.1.p": "Individuālas nodarbības: tehnika, plāns un atbildība.",
+      "tr.offer.2.h": "Tiešsaistes treniņi",
+      "tr.offer.2.p": "Plāns, veidots ap taviem mērķiem, ar regulārām atskaitēm un korekcijām.",
+      "tr.offer.3.h": "Tikko sāc?",
+      "tr.offer.3.p": "Vispirms izveidosim pamatus un paradumu — bez pārslodzes.",
+
+      "tr.contact.kicker": "Nākamais solis",
+      "tr.contact.title": "Trenējies pie manis",
+      "tr.contact.lead": "Pastāsti savu mērķi un no kurienes sāc — es atbildēšu personīgi.",
+
+      "title": "Rinalds Dērics",
+      "title.trainer": "Rinalds Dērics — Personīgie treniņi"
     }
   };
 
@@ -269,7 +381,8 @@
     var dict = I18N[lang];
 
     document.documentElement.lang = lang;
-    document.title = dict["title"];
+    var titleKey = document.body.getAttribute("data-page-title") || "title";
+    document.title = dict[titleKey] || dict["title"];
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");

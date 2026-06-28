@@ -11,6 +11,18 @@
 /
   Cache-Control: public, max-age=0, must-revalidate
 
+/bizness
+  Cache-Control: public, max-age=0, must-revalidate
+
+/bizness/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/treneris
+  Cache-Control: public, max-age=0, must-revalidate
+
+/treneris/
+  Cache-Control: public, max-age=0, must-revalidate
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
 
